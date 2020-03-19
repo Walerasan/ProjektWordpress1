@@ -49,7 +49,7 @@
             </div>
         </nav>
         <div class="container">
-            <section class="artykul">
+            <article class="artykul">
                 <header>
                     <h1>Tytuł artykułu <span> Autor: Walerasan</span></h1>
                 </header>
@@ -58,7 +58,30 @@
                     aperiam necessitatibus maxime voluptatum eum. Tempora, voluptatem necessitatibus 
                     ullam non aperiam quod provident.
                 </p>
-            </section>
+                <img src="<?php bloginfo('template_directory') ?>/img/tatry1.jpg">
+            </article>
+            <article class="artykul">
+                <header>
+                    <h1>Tytuł artykułu <span> Autor: Walerasan</span></h1>
+                </header>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Voluptatem, ex, porro inventore quasi praesentium quae mollitia officia 
+                    aperiam necessitatibus maxime voluptatum eum. Tempora, voluptatem necessitatibus 
+                    ullam non aperiam quod provident.
+                </p>
+                <img src="<?php bloginfo('template_directory') ?>/img/tatry1.jpg">
+            </article>
+            <article class="artykul">
+                <header>
+                    <h1>Tytuł artykułu <span> Autor: Walerasan</span></h1>
+                </header>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Voluptatem, ex, porro inventore quasi praesentium quae mollitia officia 
+                    aperiam necessitatibus maxime voluptatum eum. Tempora, voluptatem necessitatibus 
+                    ullam non aperiam quod provident.
+                </p>
+                <img src="<?php bloginfo('template_directory') ?>/img/tatry1.jpg">
+            </article>
         </div>
     </body>
 </html>

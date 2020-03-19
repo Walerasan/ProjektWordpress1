@@ -96,3 +96,14 @@ body,html{
 .artykul p{
      text-align: justify;
 }
+.artykul img{
+    width: 50%;
+}
+.specjalizacje .kontaktemail{
+    padding-top: 30px;
+    color: purple;
+    font-style: italic;
+}
+.specjalizacje, .specjalizacja2{
+    color: white;
+}
