@@ -48,7 +48,9 @@ body,html{
      position: relative;
  }
  .menu .poziom2 .item{
-     padding: 5px;
+     margin:0;
+     padding-top:10px;
+     padding-bottom: 5px;
      font-family: tahoma;
      color: white;
      display: block;
