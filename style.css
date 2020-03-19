@@ -1,0 +1,89 @@
+/*
+Theme Name: Strona projekt worpress w Netbeans
+Theme URI: localhost
+Description: Strona projekt WORDPRESS
+Version: 1.0
+Author: walerasan
+Author URI: 
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+body,html{
+    padding: 0;
+    margin: 0;
+}
+ .menu {
+     width:100%;
+     background-color: #ffa500;
+     border-top: 10px solid purple;
+     border-bottom: 10px solid gray;
+     min-height: 100px;
+     margin: 0;
+     padding: 0;
+     color: gray;
+     font-size: 18px;
+ }
+ .box{
+     width:680px;
+     margin: auto;
+ }
+ .menu .poziom1,.poziom2{
+     list-style: none;
+     margin: 0;
+     padding: 0;
+ }
+ .menu .poziom1{
+     display: flex;
+ }
+ .menu .poziom2{
+     display: block;
+ }
+ .menu .poziom1 .item{
+     margin-top: 20px;
+     padding: 20px;
+     font-family: tahoma;
+     color: white;
+     display: block;
+     float: left;
+     position: relative;
+ }
+ .menu .poziom2 .item{
+     padding: 5px;
+     font-family: tahoma;
+     color: white;
+     display: block;
+     float: left;
+     position: relative;
+ }
+ .menu a{
+     text-decoration: none;
+     color: white;
+ }
+.menu .poziom2{
+    display: none;
+    position: absolute;
+    left: 10;
+    opacity: 0;
+}
+.menu .poziom1 li:hover > .poziom2 {
+    display: block;
+    background-color: #ffa500;
+    opacity: 1;
+}
+.menu .poziom1 .item a:hover{
+    color: gray;
+}
+.logoGitHub{
+    display: block;
+    padding-top: 18px;
+}
+.menu .poziom1 .item .arrow {
+    position: relative;
+    top: 15px;
+    left: 5px;
+    right: 0; 
+    margin-right: -8px; 
+    border-top: 4px solid gray; 
+    border-right: 4px solid transparent; 
+    border-left: 4px solid transparent;
+}
