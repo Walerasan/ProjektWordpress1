@@ -89,3 +89,10 @@ body,html{
     border-right: 4px solid transparent; 
     border-left: 4px solid transparent;
 }
+.artykul{
+    width: 50%;
+    min-height: 250px;
+}
+.artykul p{
+     text-align: justify;
+}
