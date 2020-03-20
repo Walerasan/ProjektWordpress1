@@ -10,6 +10,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 @import url('https://fonts.googleapis.com/css?family=Cabin&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
 body,html{
     padding: 0;
     margin: 0;
@@ -165,5 +166,9 @@ body,html{
  }
   .ikony .ikonyview:hover{
       opacity: 0.6;
+ }
+ legend{
+     font-family: 'Lobster', cursive;
+     font-size: 25px;
  }
 
