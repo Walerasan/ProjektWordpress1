@@ -23,7 +23,7 @@
                 <h1 class="specjalizacja1">Technik informatyk</h1>
                 <h1 class="specjalizacja2">Technik programista</h1>
                 <h1 class="specjalizacja3">Technik procesów cyfrowych</h1>
-                <h1 class="kontaktemail">kontakt: informatyka@pszczyna.edu.pl</h1>
+                <h1 class="kontaktemail"><a href="mailto:informatyka@pszczyna.edu.pl">kontakt: informatyka@pszczyna.edu.pl</a></h1>
             </div>
         </header>
         <nav class="menu">
@@ -51,37 +51,104 @@
         <div class="container">
             <article class="artykul">
                 <header>
-                    <h1>Tytuł artykułu <span> Autor: Walerasan</span></h1>
+                    <h1>Tytuł artykułu</h1>
                 </header>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                <p><img src="<?php bloginfo('template_directory') ?>/img/tatry1.jpg">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Voluptatem, ex, porro inventore quasi praesentium quae mollitia officia 
+                    aperiam necessitatibus maxime voluptatum eum. Tempora, voluptatem necessitatibus 
+                    ullam non aperiam quod provident.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Voluptatem, ex, porro inventore quasi praesentium quae mollitia officia 
+                    aperiam necessitatibus maxime voluptatum eum. Tempora, voluptatem necessitatibus 
+                    ullam non aperiam quod provident.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Voluptatem, ex, porro inventore quasi praesentium quae mollitia officia 
+                    aperiam necessitatibus maxime voluptatum eum. Tempora, voluptatem necessitatibus 
+                    ullam non aperiam quod provident.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Voluptatem, ex, porro inventore quasi praesentium quae mollitia officia 
+                    aperiam necessitatibus maxime voluptatum eum. Tempora, voluptatem necessitatibus 
+                    ullam non aperiam quod provident.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                     Voluptatem, ex, porro inventore quasi praesentium quae mollitia officia 
                     aperiam necessitatibus maxime voluptatum eum. Tempora, voluptatem necessitatibus 
                     ullam non aperiam quod provident.
                 </p>
-                <img src="<?php bloginfo('template_directory') ?>/img/tatry1.jpg">
+                <div class="stopkaartykulu">
+                    <footer>
+                        <span> <i>Autor: Walerasan </i> <button class="przyciski">Więcej...</button></span>
+                    </footer>
+                </div>
             </article>
+            <div class="clear"></div>
             <article class="artykul">
                 <header>
-                    <h1>Tytuł artykułu <span> Autor: Walerasan</span></h1>
+                    <h1>Tytuł artykułu</h1>
                 </header>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                <p><img src="<?php bloginfo('template_directory') ?>/img/tatry1.jpg">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Voluptatem, ex, porro inventore quasi praesentium quae mollitia officia 
+                    aperiam necessitatibus maxime voluptatum eum. Tempora, voluptatem necessitatibus 
+                    ullam non aperiam quod provident.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Voluptatem, ex, porro inventore quasi praesentium quae mollitia officia 
+                    aperiam necessitatibus maxime voluptatum eum. Tempora, voluptatem necessitatibus 
+                    ullam non aperiam quod provident.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Voluptatem, ex, porro inventore quasi praesentium quae mollitia officia 
+                    aperiam necessitatibus maxime voluptatum eum. Tempora, voluptatem necessitatibus 
+                    ullam non aperiam quod provident.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                     Voluptatem, ex, porro inventore quasi praesentium quae mollitia officia 
                     aperiam necessitatibus maxime voluptatum eum. Tempora, voluptatem necessitatibus 
                     ullam non aperiam quod provident.
                 </p>
-                <img src="<?php bloginfo('template_directory') ?>/img/tatry1.jpg">
+                <div class="stopkaartykulu">
+                    <footer>
+                        <span> <i>Autor: Walerasan </i> <button class="przyciski">Więcej...</button></span>
+                    </footer>
+                </div>
             </article>
+            <div class="clear"></div>
             <article class="artykul">
                 <header>
-                    <h1>Tytuł artykułu <span> Autor: Walerasan</span></h1>
+                    <h1>Tytuł artykułu</h1>
                 </header>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                <p><img src="<?php bloginfo('template_directory') ?>/img/tatry1.jpg">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Voluptatem, ex, porro inventore quasi praesentium quae mollitia officia 
+                    aperiam necessitatibus maxime voluptatum eum. Tempora, voluptatem necessitatibus 
+                    ullam non aperiam quod provident.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Voluptatem, ex, porro inventore quasi praesentium quae mollitia officia 
+                    aperiam necessitatibus maxime voluptatum eum. Tempora, voluptatem necessitatibus 
+                    ullam non aperiam quod provident.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Voluptatem, ex, porro inventore quasi praesentium quae mollitia officia 
+                    aperiam necessitatibus maxime voluptatum eum. Tempora, voluptatem necessitatibus 
+                    ullam non aperiam quod provident.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Voluptatem, ex, porro inventore quasi praesentium quae mollitia officia 
+                    aperiam necessitatibus maxime voluptatum eum. Tempora, voluptatem necessitatibus 
+                    ullam non aperiam quod provident.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Voluptatem, ex, porro inventore quasi praesentium quae mollitia officia 
+                    aperiam necessitatibus maxime voluptatum eum. Tempora, voluptatem necessitatibus 
+                    ullam non aperiam quod provident.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                     Voluptatem, ex, porro inventore quasi praesentium quae mollitia officia 
                     aperiam necessitatibus maxime voluptatum eum. Tempora, voluptatem necessitatibus 
                     ullam non aperiam quod provident.
                 </p>
-                <img src="<?php bloginfo('template_directory') ?>/img/tatry1.jpg">
+     
+                <div class="stopkaartykulu">
+                    <footer>
+                        <span> <i>Autor: Walerasan </i> <button class="przyciski">Więcej...</button></span>
+                    </footer>
+                </div>
             </article>
+            <div class="clear"></div>
         </div>
     </body>
 </html>
