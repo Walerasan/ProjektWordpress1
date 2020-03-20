@@ -9,6 +9,7 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 @import url('https://fonts.googleapis.com/css?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
 body,html{
     padding: 0;
     margin: 0;
@@ -95,6 +96,7 @@ body,html{
     min-height: 250px;
     margin-left: 25px;
     font-family: 'Cabin', sans-serif;
+    margin-bottom: 25px;
 }
 .artykul h1{
     font-family: 'Cabin', sans-serif;
@@ -128,4 +130,20 @@ body,html{
 .clear{
     clear: both;
 }
+.footer-stopka{
+     width:100%;
+     background-color: #ffa500;
+     border-top: 10px solid purple;
+     border-bottom: 10px solid gray;
+     min-height: 100px;
+     margin: 0;
+     padding: 0;
+     font-size: 18px;
+}
+ .boxstopka{
+    text-align: center;
+    color: black;
+    margin-top: 40px;
+    font-family: 'Righteous', cursive;
+ }
 
