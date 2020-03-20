@@ -6,8 +6,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
          <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory') ?>/style.css">
           <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory') ?>/css/animacje.css">
+          <script type="text/javascript" src="<?php bloginfo('template_directory') ?>/skrypt.js"></script>
     </head>
-    <body>
+    <body onload="zmianaforografii();">
         <header>
             <div class="baner">
                 <h1 id="napis1">Motywy w Wordpress</h1>
@@ -27,7 +28,7 @@
             </div>
         </header>
         <nav class="menu">
-            <div class="box">
+            <div class="boxmenu">
                 <ul class="poziom1">
                    <li><a href="index.php"><img src="<?php bloginfo('template_directory') ?>/img/git.png" alt="logoGitHub" class="logoGitHub"></a></li>
                    <li class="item"><a href="#">Strona główna</a></li>
@@ -48,6 +49,7 @@
                 </ul>
             </div>
         </nav>
+    <div class="wrapperstrona">
         <div class="container">
             <article class="artykul">
                 <header>
@@ -150,10 +152,32 @@
             </article>
             <div class="clear"></div>
         </div>
+        <div class="sidebar">
+            <div class="sidebarsrodek">
+                <h1>Programowanie w języku PHP - WORDPRESS 2020</h1>
+                <div id="box"></div>
+                <div class="ikony">
+                    <a href="#"><img class="ikonyview" src="<?php bloginfo('template_directory') ?>/img/sass.svg"></a>
+                    <a href="#"><img class="ikonyview" src="<?php bloginfo('template_directory') ?>/img/css3-alt.svg"></a>
+                    <a href="#"><img class="ikonyview" src="<?php bloginfo('template_directory') ?>/img/php.svg"></a>
+                    <a href="#"><img class="ikonyview" src="<?php bloginfo('template_directory') ?>/img/wordpress.svg"></a>
+                    <a href="#"><img class="ikonyview" src="<?php bloginfo('template_directory') ?>/img/html5.svg"></a>
+                </div>
+                <div class="formularzkontaktowy">
+                    <fieldset>
+                        <legend>Formularz kontaktowy</legend>
+                        <form>
+                            <input type="text" placeholder="Podaj imię">
+                        </form>
+                    </fieldset>
+                </div>
+            </div>
+        </div>
+     </div>
         <!-- stopka -->
         <footer class="footer-stopka">
             <div class="boxstopka">
-                Copyright by WaleraSan for PZS nr 1 w Pszczynie
+                Copyright by WaleraSan for PZS nr 1 w Pszczynie 2020 r
             </div>    
         </footer>
     </body>

@@ -25,8 +25,8 @@ body,html{
      color: gray;
      font-size: 18px;
  }
- .box{
-     width:680px;
+ .boxmenu{
+     width: 620px;
      margin: auto;
  }
  .menu .poziom1,.poziom2{
@@ -92,7 +92,7 @@ body,html{
     border-left: 4px solid transparent;
 }
 .artykul{
-    width: 100%;
+    width: 95%;
     min-height: 250px;
     margin-left: 25px;
     font-family: 'Cabin', sans-serif;
@@ -105,7 +105,9 @@ body,html{
      text-align: justify;
 }
 .container{
+    float: left;
     width: 50%;
+    border-right: 30px solid #ffa500;
 }
 .artykul img{
     width: 20%;
@@ -131,6 +133,7 @@ body,html{
     clear: both;
 }
 .footer-stopka{
+    clear: both;
      width:100%;
      background-color: #ffa500;
      border-top: 10px solid purple;
@@ -145,5 +148,22 @@ body,html{
     color: black;
     margin-top: 40px;
     font-family: 'Righteous', cursive;
+ }
+ .sidebar{
+     float: left;
+ }
+ .sidebarsrodek{
+   margin-left: 100px;
+   text-align: center;
+ }
+ .wrapperstrona{
+     width: 100%;
+ }
+ .ikony .ikonyview{
+     margin: 10px;
+     width: 120px;
+ }
+  .ikony .ikonyview:hover{
+      opacity: 0.6;
  }
 
