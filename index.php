@@ -7,8 +7,10 @@
          <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory') ?>/style.css">
           <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory') ?>/css/animacje.css">
           <script type="text/javascript" src="<?php bloginfo('template_directory') ?>/skrypt.js"></script>
+    
+    <script>var prefix ="<?php echo bloginfo('template_directory');?>" </script>
     </head>
-    <body onload="zmianaforografii();">
+    <body onload="zmianaforografii(prefix);">
         <header>
             <div class="baner">
                 <h1 id="napis1">Motywy w Wordpress</h1>
@@ -154,7 +156,7 @@
         </div>
         <div class="sidebar">
             <div class="sidebarsrodek">
-                <h1>Programowanie w języku PHP - WORDPRESS 2020</h1>
+                <h2>Programowanie w języku PHP - WORDPRESS 2020</h2>
                 <div id="box"></div>
                 <div class="ikony">
                     <a href="#"><img class="ikonyview" src="<?php bloginfo('template_directory') ?>/img/sass.svg"></a>

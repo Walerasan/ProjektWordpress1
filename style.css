@@ -154,7 +154,7 @@ body,html{
      float: left;
  }
  .sidebarsrodek{
-   margin-left: 100px;
+   margin-left: 10px;
    text-align: center;
  }
  .wrapperstrona{
@@ -162,7 +162,7 @@ body,html{
  }
  .ikony .ikonyview{
      margin: 10px;
-     width: 120px;
+     width: 100px;
  }
   .ikony .ikonyview:hover{
       opacity: 0.6;
