@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<title>Taski do wykonania ćwiczenia - Tworzenie nowego motywu Wordpress część 1</title>
+	<style type="text/css">
+		.zadanie{
+			width: 100%;
+			font-family: tahoma;
+			font-size: 18px;
+			color: black;
+			margin: 20px;
+		}
+		.task{
+			width: 1024px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 20px;
+			border: 2px solid orange;
+			border-radius: 25px;
+		}
+		.opiszadania{
+			text-align: center;
+		}
+		img{
+			width: 60%;
+			margin: 10px;
+		}
+		footer{
+			width: 100%;
+			font-family: tahoma;
+			font-size: 18px;
+			color: black;
+			text-align: center;
+		}
+		h1{
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<section class="zadanie">
+		<article class="task">
+			<h1></h1>
+			<p class="opiszadania">
+				1. Celem zadania jest wykonanie Motywu dla CMS Wordpressa.<br>
+				Ćwiczenie pokazuje sposób tworzenia nowego motywu oraz wykorzystanie funkcji bloginfo() z wordpresie.<br>
+				W pierwsza część ćwiczenia koncentruje się na przykładowych animacjach css oraz na prostej stronie, która nie jest RWD.<br>
+				Strona będzie wymagać opracowania własnych animacji oraz dostosowania jej do RWD.<br>
+				2. Całość wyglądu strony prezentuje poniższy screen<br>
+				<img src="./img/Obraz1.png" alt=""><br>
+			</p>
+		</article>
+	</section>
+	<section class="zadanie">
+		<article class="task">
+			<h1>Wprowadzenie</h1>
+			<p class="opiszadania">
+				1. Pobieramy CMS'a Wordpress ze strony: <a href="https://pl.wordpress.org/download/">POBIERZ WORDPRESSA</a><br>
+				<img src="./img/Obraz2.png" alt=""><br>
+				2. Rozpakowujemy pobranego wordpressa i wrzucamy go do kalatogu: C:\xampp\htdocs\imienazwisko\<br>
+				<img src="./img/Obraz3.png" alt=""><br>
+				3. Pobieramy środowisko pracy NetBeans ze strony oraz samodzielnie instalujemy oprogramowanie: <a href="https://apache.mirrors.tworzy.net/netbeans/netbeans/11.3/Apache-NetBeans-11.3-bin-windows-x64.exe">POBIERZ NetBeans</a><br>
+				4. W razie problemów z instalacją, proszę pytań na fb lub drogą mailową<br>
+				5. Dodajemy plug WordPressa w NetBeans po uruchomieniu programu<br>
+				<img src="./img/Obraz4.png" alt=""><br>
+				6. Następnie przechodzimy do zakładki "Available Plugin(1/...)" i wpisujemy w polu: Search: "Wordpress" i zaznaczamy pole checkbox "PHP WordPress Blog/CMS" Instalujemy i zamykamy okno<br>
+				<img src="./img/Obraz5.png" alt=""><br>
+			</p>
+		</article>
+	</section>
+		<section class="zadanie">
+		<article class="task">
+			<h1>Tworzenie nowego projektu</h1>
+			<p class="opiszadania">
+				1. Tworzymy nowy folder "klasa" w katalogu themes naszego zainstalowanego Wordpressa: C:\xampp\htdocs\imienazwisko\wp-content\themes\<br>
+				2. Posiadamy katalog: C:\xampp\htdocs\imienazwisko\wp-content\themes\klasa<br>
+				Katalog "klasa" stanowi miejsce nowego motywu.<br>
+				3. Przechodzimy do NetBeans i zakładamy nowy projekt<br>
+				<img src="./img/Obraz6.png" alt=""><br>
+				4. Wybieramy jak pokazano na obrazku "PHP Application with Existing Sources"<br>
+				<img src="./img/Obraz7.png" alt=""><br>
+				5. Wybieramy Source Folder: C:\xampp\htdocs\imienazwisko\wp-content\themes\ oraz
+				wpisujemy nazwę nowego projektu Project Name: klasa<br>
+				<img src="./img/Obraz8.png" alt=""><br> 
+				6. Przechodzimy dalej, w polu Project URL podajemy :http://localhost/imienazwisko, klikamy zakończ (przycisk "finish" :) )<br>
+				<img src="./img/Obraz9.png" alt=""><br>
+				7. Posiadamy pusty Katalog "Klasa"<br>
+				<img src="./img/Obraz10.png" alt=""><br>
+			</p>
+		</article>
+	</section>
+		<section class="zadanie">
+		<article class="task">
+			<h1>Tworzenie pliku screenshot.png "wizytówki projektu w CMS"</h1>
+			<p class="opiszadania">
+				1. Za pomocą gimpa tworzymy opis w postaci prostej wizytówki w formacie png 1200px x 900px (ja posłużyłem się obrazkiem wyglądu strony z początku ćwiczenia)
+				i nadajemy nazwę wizytówce: screenshot.png, która będzie wyróżniać Motywy w CMS<br>
+				<img src="./img/Obraz11.png" alt=""><br>
+				2. Następnie utworzoną wizytówkę kopiujemy do folderu "Klasa"<br>
+				<img src="./img/Obraz12.png" alt=""><br>
+			</p>
+		</article>
+	</section>
+		<section class="zadanie">
+		<article class="task">
+			<h1>Tworzymy główny dokument nowego motywu index.php</h1>
+			<p class="opiszadania">
+				1. Zakładam nowy plik: index.php<br>
+				<img src="./img/Obraz13.png" alt=""><br>
+				<img src="./img/Obraz14.png" alt=""><br>
+				<img src="./img/Obraz15.png" alt=""><br>
+				2. Zakładamy nowy plik style.css - manifest wraz z opisem dla naszego nowego Motywu<br>
+				<img src="./img/Obraz16.png" alt=""><br>
+				<img src="./img/Obraz17.png" alt=""><br>
+				3. Dokument style.css bez opisów <br>
+				<img src="./img/Obraz18.png" alt=""><br>
+			</p>
+		</article>
+	</section>
+	<section class="zadanie">
+		<article class="task">
+			<h1></h1>
+			<p class="opiszadania">
+				
+				7. Dziękuję za uwagę w razie pytań proszę kontakt: <i><a href="mailto:informatyka@pszczyna.edu.pl">informatyka@pszczyna.edu.pl</a></i>
+			</p>
+		</article>
+	</section>
+	<footer>
+		<fieldset>
+			<legend>Ćwiczenie dla Technika Programisty</legend>
+			Copyright by Walerasan 2020 PZSnr1
+		</fieldset>
+	</footer>
+</body>
+</html>

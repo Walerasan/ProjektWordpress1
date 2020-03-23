@@ -170,6 +170,9 @@
                         <legend>Formularz kontaktowy</legend>
                         <form>
                             <input type="text" placeholder="Podaj imię">
+                            <input type="text" placeholder="Podaj nazwisko">
+                            <textarea cols="80" rows="5"></textarea>
+                            <input type="submit" value="Wyślij..." class="submitbtn">
                         </form>
                     </fieldset>
                 </div>

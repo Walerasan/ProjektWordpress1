@@ -171,4 +171,15 @@ body,html{
      font-family: 'Lobster', cursive;
      font-size: 25px;
  }
+ .formularzkontaktowy input,textarea{
+     display: block;
+     margin: 15px;
+     border: 2px solid orange;
+     border-radius: 5px;
+     padding: 5px;
+ }
+ .formularzkontaktowy .submitbtn{
+  background-color: gray;
+  border: 2px solid black !important;
+ }
 
