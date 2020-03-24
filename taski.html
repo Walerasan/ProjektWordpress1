@@ -40,7 +40,7 @@
 <body>
 	<section class="zadanie">
 		<article class="task">
-			<h1></h1>
+			<h1>Tworzenie Motywu Część I by Walerasan</h1>
 			<p class="opiszadania">
 				1. Celem zadania jest wykonanie Motywu dla CMS Wordpressa.<br>
 				Ćwiczenie pokazuje sposób tworzenia nowego motywu oraz wykorzystanie funkcji bloginfo() z wordpresie.<br>
@@ -59,18 +59,37 @@
 				<img src="./img/Obraz2.png" alt=""><br>
 				2. Rozpakowujemy pobranego wordpressa i wrzucamy go do kalatogu: C:\xampp\htdocs\imienazwisko\<br>
 				<img src="./img/Obraz3.png" alt=""><br>
-				3. Pobieramy środowisko pracy NetBeans ze strony oraz samodzielnie instalujemy oprogramowanie: <a href="https://apache.mirrors.tworzy.net/netbeans/netbeans/11.3/Apache-NetBeans-11.3-bin-windows-x64.exe">POBIERZ NetBeans</a><br>
-				4. W razie problemów z instalacją, proszę pytań na fb lub drogą mailową<br>
-				5. Dodajemy plug WordPressa w NetBeans po uruchomieniu programu<br>
+				3. Uruchamiamy XAMPP'a ;)<br>
+				<img src="./img/Obraz19.png" alt=""><br>
+				4. Przechodzimy do przeglądarki internetowej i wpisujemy w URL: http://localhost/phpmyadmin/ i tworzymy pustą bazę danych "imienazwisko" na potrzeby naszego CMS Wordpressa<br>
+				<img src="./img/Obraz20.png" alt=""><br>
+				5. Uruchamiamy instalację Wordpressa na naszym LOCALHOŚCIE ;) "localhost"<br>
+				Wpisujemy w pasku URL: http://localhost/imienazwisko/<br>
+				<img src="./img/Obraz21.png" alt=""><br>
+				6. Klikamy "zaczynamy" uff ale się namęczyłem "Kaj Koniec Tato !, zapytał mój młodszy syn :) XD ?" lecimy dalej... i wypełniamy formularz jak pokazałem: root domyślnie jest bez hasła więc my również pozostawiamy pole puste ale trzeba podać nazwę bazy danych, u mnie to: "arkadiuszwaliczek" u was wasze imienazwisko. Klikamy na przycisk "Wyślij"<br>
+				<img src="./img/Obraz22.png" alt=""><br>
+				7. Klikamy na przycisk "Uruchom instalacje"<br>
+				<img src="./img/Obraz23.png" alt=""><br>
+				8. Klikamy na przycisk "zainstaluj wordpressa"<br>
+				<img src="./img/Obraz24.png" alt=""><br>
+				9. Logujemy się do CMS klikamy na "Zaloguj się"<br>
+				<img src="./img/Obraz25.png" alt=""><br>
+				10.Logujemy się....<br>
+				<img src="./img/Obraz26.png" alt=""><br>
+				11.Przechodzimy w CMS na Motywy jak pokazano na obrazku - zobaczymy domyślne motywy, z których możemy skorzystać. Narazie zostawiamy CMS WordPress i przejdźmy do pobierania i intalowania środowiska NetBeans ;)<br>
+				<img src="./img/Obraz27.png" alt=""><br>
+				12. Pobieramy środowisko pracy NetBeans ze strony oraz samodzielnie instalujemy oprogramowanie: <a href="https://apache.mirrors.tworzy.net/netbeans/netbeans/11.3/Apache-NetBeans-11.3-bin-windows-x64.exe">POBIERZ NetBeans</a><br>
+				13. W razie problemów z instalacją, proszę pytań na fb lub drogą mailową<br>
+				14. Dodajemy plugin WordPressa w NetBeans po uruchomieniu programu<br>
 				<img src="./img/Obraz4.png" alt=""><br>
-				6. Następnie przechodzimy do zakładki "Available Plugin(1/...)" i wpisujemy w polu: Search: "Wordpress" i zaznaczamy pole checkbox "PHP WordPress Blog/CMS" Instalujemy i zamykamy okno<br>
+				15. Następnie przechodzimy do zakładki "Available Plugin(1/...)" i wpisujemy w polu: Search: "Wordpress" i zaznaczamy pole checkbox "PHP WordPress Blog/CMS" Instalujemy i zamykamy okno<br>
 				<img src="./img/Obraz5.png" alt=""><br>
 			</p>
 		</article>
 	</section>
 		<section class="zadanie">
 		<article class="task">
-			<h1>Tworzenie nowego projektu</h1>
+			<h1>Tworzenie nowego projektu w NetBeans</h1>
 			<p class="opiszadania">
 				1. Tworzymy nowy folder "klasa" w katalogu themes naszego zainstalowanego Wordpressa: C:\xampp\htdocs\imienazwisko\wp-content\themes\<br>
 				2. Posiadamy katalog: C:\xampp\htdocs\imienazwisko\wp-content\themes\klasa<br>
@@ -114,12 +133,72 @@
 				<img src="./img/Obraz17.png" alt=""><br>
 				3. Dokument style.css bez opisów <br>
 				<img src="./img/Obraz18.png" alt=""><br>
+				4. Uzupełniamy dokument style.css ( tgz. Manifest )- jest to bardzo ważny moment w tworzeniu Motywu.<br>
+				Informacje podane w style.css w formie komentarza powodują poprawe dodanie do CMS nowego Motywu, którego będziemy w dalszej części tworzyć<br>
+				<img src="./img/Obraz28.png" alt=""><br>
+				5. Przechodzimy do głównego pliku: index.php.<br>
+				Kodujemy jak pokazano na obrazku. Tutaj poznamy jedną z najbardziej popularnych funkcji w php.<br>
+				<?php echo "echo "Witaj Świecie w nowym Motywie Arkadiusza Waliczka"; ?> kod napisany w php bedzie wyświetlony w naszym motywie po przejściu na główna stronę (oczywiście ctrl + s moi mili) http://localhost/imienazwisko<br>
+				<img src="./img/Obraz29.png" alt=""><br>
+				6. Przechodzimy do CMS i klikamy "Wygląd" dalej "Motywy". U mnie jest troche inaczej niż u was ale.... damy radę, powinniście zobaczyć wizytówkę, którą tworzyliście w gimpie na potrzeby nowego Motywu (u mnie na porarańczowo )<br>
+				<img src="./img/Obraz30.png" alt=""><br>
+				7. Teraz będziemy aktywować Motyw, czyli proszę najechać kursorem mychy na stworzoną wizytówkę i kliknąć aktywuj, dalej przejdź url: http://localhost/imienazwisko/ <br>
+				<img src="./img/Obraz31.png" alt=""><br>
+				8. http://localhost/imienazwisko/<br>
+				<img src="./img/Obraz32.png" alt=""><br>
+			</p>
+		</article>
+	</section>
+	<section class="zadanie">
+		<article class="task">
+			<h1>Łączymy index.php ze stylami</h1>
+			<p class="opiszadania">
+			1. Przechodzimy w NetBeans do index.php oraz kodujemy (dla osób wtajemniczonych można uruchomić kontrole wersji projektu "git" <br>
+			oraz commitować zmiany na swoim koncie na githubie )<br>
+			2. Usuwam testowy wpis: echo "Witaj Świecie w nowym Motywie Arkadiusza Waliczka";<br>
+			3. Zakładam strukturę HTML5.0 oraz podpinam style.css do index.php<br>
+			4. Teraz nadszedł moment aby zaznajomić się z dokumentacją WORDPRESSA oraz z funkcjami wordpressa<br>
+			5. W tym celu będziemy wykorzystywać funkcji php: <?php bloginfo('template_directory') ?> w celu oreślenie ścieżki dostępu do naszego motywu<br>
+			6. Bez funkcji bloginfo('template_directory') będziemy musieli podawać ręcznie ściężkę np. do styli <br>
+			<link rel="stylesheet" type="text/css" href="http://localhost/arkadiuszwaliczek/wp-content/themes/Klasa/style.css/style.css"><br>
+			a zamiast powyższego użyjemy: <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory') ?>/style.css"><br>
+			7. Czyli mamy następujący kod w pliku index.php<br>
+			<img src="./img/Obraz33.png" alt=""><br>
+			8. Podaję link do strony, gdzie każdy kto chce tworzyć własne motywy oparte na Wordpressie musi o tym wiedzieć: https://codex.wordpress.org/<br>
+			9. np. wspomniana w/w funkcja "bloginfo()" posiada wiele ciekawych parametrów, które będziemy używać później oprócz parametru "template_directory"<br>
+			<img src="./img/Obraz34.png" alt=""><br>
+			10. Dodajmy coś do style.css, ja sobie dodałem 3 różne trzcionki z fonts google: https://fonts.google.com/<br>
+			Temat dodawania trzcionek google prezentowałem na lekcji ;)<br>
+			<img src="./img/Obraz35.png" alt=""><br>
+			</p>
+		</article>
+	</section>
+	</section>
+	<section class="zadanie">
+		<article class="task">
+			<h1>Tworzymy prosty layout dla projektu Klasa</h1>
+			<p class="opiszadania">
+				1. Przechodzę do index.php i tworzę "header" według tego co pokazuje poniżej obrazek<br>
+				<img src="./img/Obraz36.png" alt=""><br>
+				2. Na tym etapie należy pobrać materiały przygotowane wcześniej ze strony szkoły<br>
+				pobieramy załącznik, rozpakowujemy go i cały katalog img kopiujemy do projektu katalog<br>
+				3. Podaje link do materiałów: <a href="http://samochodowka.pszczyna.edu.pl/Informatyka,wiecej,47,0,Materialy-do-Projektu-Nowy-Motyw-w-WordPress-czesc-1.html">POBIERZ MATERIAŁY</a><br>
 			</p>
 		</article>
 	</section>
 	<section class="zadanie">
 		<article class="task">
 			<h1></h1>
+			<p class="opiszadania">
+				
+				
+			</p>
+		</article>
+	</section>
+	</section>
+	<section class="zadanie">
+		<article class="task">
+			<h1>Łączymy index.php ze stylami</h1>
 			<p class="opiszadania">
 				
 				7. Dziękuję za uwagę w razie pytań proszę kontakt: <i><a href="mailto:informatyka@pszczyna.edu.pl">informatyka@pszczyna.edu.pl</a></i>
