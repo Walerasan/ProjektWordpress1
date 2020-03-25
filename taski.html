@@ -48,6 +48,7 @@
 				Strona będzie wymagać opracowania własnych animacji oraz dostosowania jej do RWD.<br>
 				2. Całość wyglądu strony prezentuje poniższy screen<br>
 				<img src="./img/Obraz1.png" alt=""><br>
+				3. UWAGA !!! - jeśli prezentowane zdjęcia w ćwiczeniu nie będą wyraźne w tym powiększeniu proszę kliknąć na obraz prawym kl. mychy dalej "pokaż obraz" oraz dodatkowo powiększyć<br>
 			</p>
 		</article>
 	</section>
@@ -114,6 +115,7 @@
 			<p class="opiszadania">
 				1. Za pomocą gimpa tworzymy opis w postaci prostej wizytówki w formacie png 1200px x 900px (ja posłużyłem się obrazkiem wyglądu strony z początku ćwiczenia)
 				i nadajemy nazwę wizytówce: screenshot.png, która będzie wyróżniać Motywy w CMS<br>
+				Oczywiście aby uzyskać screenshot.png w gimpie należy obraz wyeksportować do png menu->file->eksportuj...<br>
 				<img src="./img/Obraz11.png" alt=""><br>
 				2. Następnie utworzoną wizytówkę kopiujemy do folderu "Klasa"<br>
 				<img src="./img/Obraz12.png" alt=""><br>
@@ -176,13 +178,64 @@
 	</section>
 	<section class="zadanie">
 		<article class="task">
-			<h1>Tworzymy prosty layout dla projektu Klasa</h1>
+			<h1>Index.php</h1>
 			<p class="opiszadania">
 				1. Przechodzę do index.php i tworzę "header" według tego co pokazuje poniżej obrazek<br>
 				<img src="./img/Obraz36.png" alt=""><br>
 				2. Na tym etapie należy pobrać materiały przygotowane wcześniej ze strony szkoły<br>
 				pobieramy załącznik, rozpakowujemy go i cały katalog img kopiujemy do projektu katalog<br>
 				3. Podaje link do materiałów: <a href="http://samochodowka.pszczyna.edu.pl/Informatyka,wiecej,47,0,Materialy-do-Projektu-Nowy-Motyw-w-WordPress-czesc-1.html">POBIERZ MATERIAŁY</a><br>
+				4. Po rozpakowaniu materiałów wycięciu i wklejeniu folderu "img" do naszego projektu "Klasa" mamy taki układ folderów<br>
+				<img src="./img/Obraz37.png" alt=""><br>
+				5. Widok struktury katalogów projektu "Klasa" w NetBeans<br>
+				<img src="./img/Obraz38.png" alt=""><br>
+				6. Dodanie kolejnego kodu do pliku index.php pod znacznikiem "/header". Tworzymy menu dla naszego projektu: znacznik "nav" menu<br>
+				Proszę zwrócić uwagę na listy "ul li" oraz na definicję "class css" takich jak: menu, boxmenu, poziom1, poziom2, item - będziemy je później "ostylowywać" w pliku style.css oraz animacje.css<br>
+				<img src="./img/Obraz39.png" alt=""><br>
+				7. Przejdziemy teraz do dalszego kodowania i dodamy sobie "znaczik div class=wrapperstrona" w którym będzie znajdywać się dwa div'y lewa część strony i prawa część strony: lewa czyli o div class='container' (prezentować będzie artykuły ) a prawy div class='sidebar' (prezentować będzie loga oraz formularz kontaktowy)<br>
+				<img src="./img/Obraz40.png" alt=""><br>
+				8. Tworzę teraz kod dla artykułów w znaczniku div class='container' i kopiuje x 3 kod aby mieć 3 artykuły na stronie to co zakreściłem<br>
+				dodatkowy div class='clear' posłuży nam do wyczyszenia float:left i float: right naszych artykułów<br>
+				Prośba aby tekst zastępczy "Lorem" dodać kilka razy do artykułu np 4x...<br>
+				<img src="./img/Obraz41.png" alt=""><br>
+				9. po skopiowaniu i dodaniu kodu dla div class='sidebar' w którym mamy slajder zdjęć, ikony oraz formularz, wyglądać będzie tak<br>
+				<img src="./img/Obraz42.png" alt=""><br>
+				10. Na koniec kodowania w index.php dodajemy stopkę "footer" jak pokazano na obrazku<br>
+				<img src="./img/Obraz43.png" alt=""><br>
+
+			</p>
+		</article>
+	</section>
+	<section class="zadanie">
+		<article class="task">
+			<h1>style.css</h1>
+			<p class="opiszadania">
+				1. Dodajemy style dla poszczególnych klass (menu,boxmenu,poziom1,poziom2)<br>
+				<img src="./img/Obraz44.png" alt=""><br>
+				2. Dalej dodaje styl dla menu...<br>
+				<img src="./img/Obraz45.png" alt=""><br>
+				3. Dalej dodajemy styl do menu oraz ikon (menu posiada dwa poziomy więc za pomocą styli tworze symbol strzałki ;) )<br>
+				<img src="./img/Obraz46.png" alt=""><br>
+				4. Dalej dodajemy styl dla artykułów i klass związanych z artykułami na stronie<br>
+				<img src="./img/Obraz47.png" alt=""><br>
+				5. Dalej stopka artykułu i klasa "clear" w artykułach<br>
+				<img src="./img/Obraz48.png" alt=""><br>
+				6. Na koniec dodajemy style dla klas "sidebar" oraz "formularzkontaktowy"<br>
+				<img src="./img/Obraz49.png" alt=""><br>
+				7. Uff trochę tego było.... i to w takim wielkim skrócie bez rozwlekania się... gdyby ktoś miał jakieś uwagi zapraszam do dyskusji...<br>
+			</p>
+		</article>
+	</section>
+	</section>
+	<section class="zadanie">
+		<article class="task">
+			<h1>Modyfikacja index.php</h1>
+			<p class="opiszadania">
+				1. Przechodzę do pliku o nazwie index.php. <br>
+				W części "head" dodaję obsługę animacji oraz skrypt.js (javascript), który wykorzystamy do zmiany zdjęć<br>
+				Do znacznika "body" dodamy funkcję zmianafotografii(), która bedzie się ładować w celu animacji zdjęć<br>
+				var prefix jest to zmienna utworzona w javascript która przekazuje do funkcji "zmianafotografii(prefix)" prefix czyli ścieżkę dostępu do zdjęć za pomocą wspomnianej już funkcji wordpresowej bloginfo()<br>
+				<img src="./img/Obraz50.png" alt=""><br>
 			</p>
 		</article>
 	</section>
@@ -190,18 +243,17 @@
 		<article class="task">
 			<h1></h1>
 			<p class="opiszadania">
-				
-				
+				Za wszelkie uwagi i wyszukane błędy będę wdzięczny w celu poprawienia tutorialu<br>
+				Dziękuję za uwagę w razie pytań proszę kontakt: <i><a href="mailto:informatyka@pszczyna.edu.pl">informatyka@pszczyna.edu.pl</a></i>
 			</p>
 		</article>
 	</section>
-	</section>
 	<section class="zadanie">
 		<article class="task">
-			<h1>Łączymy index.php ze stylami</h1>
+			<h1></h1>
 			<p class="opiszadania">
-				
-				7. Dziękuję za uwagę w razie pytań proszę kontakt: <i><a href="mailto:informatyka@pszczyna.edu.pl">informatyka@pszczyna.edu.pl</a></i>
+				Za wszelkie uwagi i wyszukane błędy będę wdzięczny w celu poprawienia tutorialu<br>
+				Dziękuję za uwagę w razie pytań proszę kontakt: <i><a href="mailto:informatyka@pszczyna.edu.pl">informatyka@pszczyna.edu.pl</a></i>
 			</p>
 		</article>
 	</section>
